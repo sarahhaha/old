@@ -48,7 +48,7 @@ h1 {
   float: right;
 }
 
-ul li a:hover {
+h1 ul li a:hover {
   transform: scale(1);
   opacity: 1;
   color:cadetblue;
@@ -58,6 +58,30 @@ ul li a:hover {
 a {
   color: black;
   text-decoration: none;
+}
+
+a.button {
+  background-color: cadetblue;
+  padding: 10px 10px;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+}
+
+
+a.button:hover {
+  transform: scale(1);
+  background-color: orange;
+  padding: 15px 32px;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  color: initial;
+  border-radius: 4px;
 }
 
 img{
