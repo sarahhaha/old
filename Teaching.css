@@ -66,6 +66,7 @@ a.button {
   text-decoration: none;
   color: white;
   border-radius: 4px;
+  transition: 0.5s;
 }
 
 
@@ -79,4 +80,5 @@ a.button:hover {
   text-decoration: none;
   color: initial;
   border-radius: 4px;
+  transition: 0.5s;
 }

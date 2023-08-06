@@ -58,6 +58,7 @@ img{
 p{
   font-size: 200%;
   text-align: left;
+  line-height: 1.6;
 }
 
 #paragraph{
@@ -68,4 +69,30 @@ p{
 
 b{
   color:cadetblue;
+}
+
+a.button {
+  background-color: cadetblue;
+  padding: 10px 10px;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+
+a.button:hover {
+  transform: scale(1);
+  background-color: orange;
+  padding: 15px 32px;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  color: initial;
+  border-radius: 4px;
+  transition: 0.5s;
 }
