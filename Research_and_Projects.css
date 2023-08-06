@@ -48,9 +48,8 @@ h1 {
   float: right;
 }
 
-h1 ul li a:hover {
+ul li a:hover {
   transform: scale(1);
-  opacity: 1;
   color:cadetblue;
 }
 
